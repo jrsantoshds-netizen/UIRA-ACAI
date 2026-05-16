@@ -1,0 +1,8 @@
+{
+  "name": "Uirá Açaí da Amazônia",
+  "description": "Página viral de vendas para o Uirá Açaí da Amazônia. Peça agora pelo WhatsApp!",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
