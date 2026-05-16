@@ -47,7 +47,7 @@ const UiraRune = () => (
 );
 
 export default function AcaiViralPage() {
-  const WHATSAPP_NUMBER = "5592992689888";
+  const WHATSAPP_NUMBER = "+559292869888";
   const WHATSAPP_MESSAGE = encodeURIComponent(
     "Olá! Vim pela página e quero garantir meu Uirá Açaí Premium de Anori (R$ 20,00). 💜",
   );
