@@ -225,56 +225,6 @@ export default function AcaiViralPage() {
           ))}
         </div>
 
-        {/* Reviews Hook */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.9 }}
-          className="text-center mb-8"
-        >
-          <div className="flex items-center space-x-4 justify-center mb-8 opacity-80">
-            <div className="h-px w-8 sm:w-12 bg-gradient-to-r from-transparent to-[#a3e635]"></div>
-            <span className="uppercase tracking-[0.2em] sm:tracking-[0.3em] text-[10px] sm:text-xs font-bold text-[#a3e635]">
-              Falam do Nosso Açaí
-            </span>
-            <div className="h-px w-8 sm:w-12 bg-gradient-to-l from-transparent to-[#a3e635]"></div>
-          </div>
-          {/* Review Card */}
-          <div className="bg-white/5 border border-white/10 rounded-3xl p-6 sm:p-8 text-left relative shadow-2xl backdrop-blur-sm">
-            <div className="flex gap-1 mb-4">
-              {[...Array(5)].map((_, i) => (
-                <Star
-                  key={i}
-                  className="w-4 h-4 sm:w-5 sm:h-5 fill-[#a3e635] text-[#a3e635]"
-                />
-              ))}
-            </div>
-            <p className="text-white/90 text-sm sm:text-base italic mb-6 font-light leading-relaxed">
-              "O melhor açaí que já provei! Literalmente não tem mistura, é
-              grosso e o sabor é impressionante. Sou cliente fixo agora."
-            </p>
-            <div className="flex items-center gap-4 border-t border-white/10 pt-6">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border border-white/20 overflow-hidden relative bg-black/50">
-                <Image
-                  src="https://picsum.photos/100/100?random=88"
-                  alt="Cliente"
-                  fill
-                  sizes="(max-width: 768px) 48px, 48px"
-                  className="object-cover"
-                  referrerPolicy="no-referrer"
-                />
-              </div>
-              <div>
-                <p className="text-white text-xs sm:text-sm font-bold uppercase tracking-wider">
-                  Mateus S.
-                </p>
-                <p className="text-[#a3e635]/80 text-[10px] font-semibold uppercase tracking-wider mt-0.5 flex items-center gap-1.5">
-                  <CheckCircle2 className="w-3 h-3" /> Comprador Verificado
-                </p>
-              </div>
-            </div>
-          </div>
-        </motion.div>
       </div>
 
       {/* Decorative Text Behind Everything */}
